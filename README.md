@@ -7,7 +7,11 @@ LEKH is a modern **desktop business management application** built for small bus
 This repository serves as the **official product page and release hub** for LEKH.
 
 ---
+## 🌐 Connect With Me
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/priyanshu4282r)
+[![X (Twitter)](https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x)](https://x.com/Priyanshu4282R)
+---
 ## ✨ About LEKH
 
 Managing a small business should be simple.
