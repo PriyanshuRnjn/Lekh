@@ -1,5 +1,5 @@
 # LEKH™
-
+[![Lekh Website(Twitter)]](https://lekh.studio)
 ### Your business, organized
 
 LEKH is a modern **desktop business management application** built for small businesses who want a fast, simple and offline solution for billing, inventory and customer management.
