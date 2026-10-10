@@ -9,12 +9,14 @@
 **Invoices · Quotations · Inventory · Customers · Bill Designs**
 Built in India. Built for India. 100% Offline.
 
-[![Download Free](https://img.shields.io/badge/⬇%20Download%20Free-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://apps.microsoft.com/detail/9NMQ1885JVXW?hl=en-us&gl=IN&ocid=pdpshare)
+[![Download Windows](https://img.shields.io/badge/⬇%20Download-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://apps.microsoft.com/detail/9NMQ1885JVXW?hl=en-us&gl=IN&ocid=pdpshare)
+[![Download Linux](https://img.shields.io/badge/⬇%20Download-Linux%20(.deb)-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/PriyanshuRnjn/Lekh_development/releases/tag/v1.0.0.2)
+[![Latest Release](https://img.shields.io/badge/Release-v1.0.0.2-2ea44f?style=for-the-badge&logo=github)](https://github.com/PriyanshuRnjn/Lekh_development/releases/tag/v1.0.0.2)
 [![Lekh Pro](https://img.shields.io/badge/✦%20Lekh%20Pro-₹333%2Fmo-FF6B35?style=for-the-badge)](https://lekh.studio/#pricing)
 [![Website](https://img.shields.io/badge/🌐%20Website-lekh.studio-15110f?style=for-the-badge)](https://lekh.studio)
 [![YouTube](https://img.shields.io/badge/▶%20Watch%20Demo-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@LekhHQ)
 
-[![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=flat-square&logo=windows)](https://apps.microsoft.com/detail/9NMQ1885JVXW)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue?style=flat-square&logo=windows)](https://github.com/PriyanshuRnjn/Lekh_development/releases/tag/v1.0.0.2)
 [![Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen?style=flat-square)]()
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=flat-square)]()
 [![Made in India](https://img.shields.io/badge/Made%20in-India%20🇮🇳-orange?style=flat-square)]()
@@ -30,6 +32,23 @@ Built in India. Built for India. 100% Offline.
 *LEKH removes the complexity of traditional accounting software and gives shop owners a clean, fast, offline-first experience — all daily operations from one place.*
 
 </div>
+
+---
+
+### 🐧 Quick Install on Linux (Ubuntu / Debian / Zorin OS / Linux Mint)
+
+Install natively using APT:
+
+```bash
+# 1. Download the latest release package
+wget https://github.com/PriyanshuRnjn/Lekh_development/releases/download/v1.0.0.2/lekh_1.0.0.2_amd64.deb
+
+# 2. Install via APT (automatically configures shortcuts and system dependencies)
+sudo apt install ./lekh_1.0.0.2_amd64.deb
+
+# 3. Launch from App Menu or Terminal
+lekh
+```
 
 ---
 
@@ -54,10 +73,12 @@ Fast counter billing that keeps up with your shop's pace.
 
 - Create invoices in seconds
 - Keyboard-friendly billing workflow
-- Generate professional printable PDF bills
-- One-click printing support
+- Barcode scanner support with auto-quantity merging
+- Generate professional printable PDF bills & A4 invoices
+- 80mm thermal roll receipts for counter POS printers
+- One-click printing & WhatsApp image sharing
 - Fast item lookup using item codes
-- GST billing support
+- Split GST (CGST/SGST) and Interstate (IGST) modes
 
 </td>
 <td width="50%" valign="top">
@@ -68,7 +89,7 @@ Professional quotes that convert to orders.
 - Create polished quotations in minutes
 - Keep follow-ups connected to your business records
 - Send quotes directly to customers
-- Track quotation status
+- Track quotation status and convert to invoice
 
 </td>
 </tr>
@@ -83,6 +104,7 @@ Know your stock. Always.
 - Low stock alerts and reorder suggestions
 - Daily stock insights and analytics
 - Product and category management
+- Export inventory directly to Excel-ready CSV & JSON
 
 </td>
 <td width="50%" valign="top">
@@ -94,7 +116,8 @@ Build lasting relationships with your customers.
 - Track last visit and buying patterns
 - Identify top customers by value and frequency
 - Maintain long-term customer records
-- Track dues and outstanding amounts
+- Track dues, unpaid bills, and outstanding amounts
+- Export customer base to Excel-ready CSV & JSON
 
 </td>
 </tr>
@@ -105,8 +128,9 @@ Build lasting relationships with your customers.
 Make your business look professional.
 
 - Multiple invoice styles to choose from
+- Thermal roll templates (80mm) with dynamic roll height
 - Polished, print-ready layouts
-- Customize for your brand
+- Customizable business identity, logos & GST details
 
 </td>
 <td width="50%" valign="top">
@@ -114,10 +138,12 @@ Make your business look professional.
 ### 📊 Dashboard & Reports
 Your business at a glance.
 
-- Daily and monthly sales overview
+- Daily, weekly, and monthly sales overview
+- Single-click **CSV / Excel export** of all transaction history
 - Quick business performance insights
 - Key metrics front and center
-- Dark mode support
+- Corrupt-proof SQLite database backups & restore
+- Dark mode and light mode support
 
 </td>
 </tr>
@@ -152,11 +178,17 @@ LEKH is built with a simple philosophy: your business data belongs to you.
 
 Try LEKH and see how easy billing, quotations and stock management feel.
 
-- ✅ Simple Windows install
+- ✅ Available for **Windows** & **Linux**
 - ✅ Try billing, inventory, customers & quotations
 - ✅ No internet required for daily billing
+- ✅ Thermal printer & A4 PDF generation
 
-[![Download Free](https://img.shields.io/badge/⬇%20Download%20Now-Microsoft%20Store-0078D4?style=for-the-badge&logo=windows)](https://apps.microsoft.com/detail/9NMQ1885JVXW?hl=en-us&gl=IN&ocid=pdpshare)
+<div style="margin-top: 10px;">
+
+[![Download Windows](https://img.shields.io/badge/⬇%20Windows-MS%20Store-0078D4?style=for-the-badge&logo=windows)](https://apps.microsoft.com/detail/9NMQ1885JVXW?hl=en-us&gl=IN&ocid=pdpshare)  
+[![Download Linux](https://img.shields.io/badge/⬇%20Linux-.deb%20(APT)-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/PriyanshuRnjn/Lekh_development/releases/tag/v1.0.0.2)
+
+</div>
 
 </td>
 <td width="50%" align="center">
@@ -165,10 +197,11 @@ Try LEKH and see how easy billing, quotations and stock management feel.
 
 **₹399/month** · *or ₹333/month billed yearly at ₹3,999*
 
-> 🎁 **Special Offer:** Buy 2 years, get the next year **FREE**
+> 🎁 **Special Offer:** Buy 2 years, get the next year **FREE**  
 > 🎉 **15-day free trial** available
 
 - ✅ All core business features unlocked
+- ✅ Unlimited bills and quotations
 - ✅ Priority support on WhatsApp & email
 - ✅ Future standalone Lekh apps included
 - ✅ **Free business card design** included
@@ -200,9 +233,9 @@ LEKH is under **active development**. Here's what's coming:
 
 | Platform | Status |
 |----------|--------|
-| 🪟 Windows | ✅ Available on Microsoft Store |
+| 🪟 Windows | ✅ Available on Microsoft Store & [GitHub Releases](https://github.com/PriyanshuRnjn/Lekh_development/releases/tag/v1.0.0.2) |
+| 🐧 Linux | ✅ Available via `.deb` (Ubuntu, Debian, Zorin OS, Mint) & Portable Binary |
 | 🍎 macOS | 📅 Planned |
-| 🐧 Linux | 📅 Planned |
 | 📱 Android | 📅 Coming Soon |
 
 ---
@@ -211,11 +244,11 @@ LEKH is under **active development**. Here's what's coming:
 
 | Layer | Technology |
 |-------|-----------|
-| Core Logic | Python |
+| Core Logic | Python 3 |
 | Desktop UI | CustomTkinter |
-| Local Database | SQLite |
-| Invoice Templates | HTML + CSS |
-| PDF Generation | Node.js |
+| Local Database | SQLite (WAL mode, offline-first) |
+| PDF & Printing | Python (ReportLab + PyMuPDF) |
+| Packaging | Debian `.deb` (Linux), MSIX & Inno Setup (Windows) |
 
 ---
 
@@ -275,7 +308,7 @@ This repository is for product information and official releases only. Unauthori
 
 <div align="center">
 
-**[🌐 Website](https://lekh.studio) · [⬇️ Download Free](https://apps.microsoft.com/detail/9NMQ1885JVXW?hl=en-us&gl=IN&ocid=pdpshare) · [▶️ Watch Demo](https://www.youtube.com/@LekhHQ) · [✦ Get Pro](https://lekh.studio/#pricing)**
+**[🌐 Website](https://lekh.studio) · [🪟 Windows Download](https://apps.microsoft.com/detail/9NMQ1885JVXW) · [🐧 Linux Download](https://github.com/PriyanshuRnjn/Lekh_development/releases/tag/v1.0.0.2) · [▶️ Watch Demo](https://www.youtube.com/@LekhHQ) · [✦ Get Pro](https://lekh.studio/#pricing)**
 
 *© 2026 LEKH · No tracking-first design · No unnecessary clutter · Made in India 🇮🇳*
 
